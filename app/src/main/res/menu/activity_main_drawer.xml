@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_programme"
+            android:icon="@drawable/ic_library_books"
+            android:title="@string/menu_programme" />
+        <item
+            android:id="@+id/nav_billing"
+            android:icon="@drawable/ic_receipt"
+            android:title="@string/menu_billing" />
+        <item
+            android:id="@+id/nav_examination"
+            android:icon="@drawable/ic_insert_drive_file"
+            android:title="@string/menu_examination" />
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/ic_question_answer"
+            android:title="@string/menu_survey" />
+    </group>
+    <item android:title="Configuration">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_action_settings"
+                android:title="@string/menu_setting" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
